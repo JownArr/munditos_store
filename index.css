@@ -1,0 +1,85 @@
+@font-face{
+    font-family: “mathlete”;
+    src: url(“fonts/mathlete-bulky.eot”);
+    src: url(“fonts/mathlete-bulky.eot”) format(“embedded-opentype”),
+    url(“fonts/mathlete-bulky.woff”) format(“woff”),
+    url(“fonts/mathlete-bulky.ttf”) format(“truetype”),
+    url(“fonts/mathlete-bulky.svg”) format(“svg”);
+}
+body{
+    background-image: url("img_pag/WhatsApp Image 2019-01-25.jpeg");
+    background-size:cover;
+}
+#romi{
+    top:5px;
+    left:5px;
+    height:140px;
+    position:absolute;
+}
+#icoini{
+    position:relative;
+    border-radius:10px;
+}
+.topetop{
+    height:20px;
+}
+.menu_cat a{
+    display:inline-block;
+}
+.menu_cat a:link{
+    text-decoration:none;
+}
+
+#tit{
+    width:120px;
+    background-color:darkviolet;
+    border-radius:10px;
+    color:lightsteelblue;
+    border-color: blueviolet;
+    border-style:solid;
+    font-family:monospace;
+    font-size:16px;
+}
+.tope{
+    height:50px;
+    bottom:50px;
+}
+#logo{
+    position:fixed;
+    height:50px;
+    bottom:5px;
+    left:5px;
+}
+.redes{
+    transition:width 1s, heigth 1s, transform 0.5s;
+    animation:mymove 0.5s infinite;
+}
+.redes:hover{
+    width:55px;
+    height:55px;
+    position:relative;
+}
+@keyframes mymove{
+    from {bottom:5px;}
+    to {bottom:15px;}
+}
+#what{
+    border-radius:50px;
+}
+#what1{
+    display:none;
+    border-radius:50px;
+    bottom:50px;
+}
+#inst{
+    border-radius:50px;
+}
+#face{
+border-radius:50px;
+}
+.pie{
+    position:fixed;
+    height:50px;
+    bottom:5px;
+    right:5px;
+}

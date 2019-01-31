@@ -1,0 +1,99 @@
+body{
+    background-image: url("/munditos_store/img_pag/WhatsApp Image 2019-01-25.jpeg");
+    background-size:cover;
+}
+#romi{
+    top:5px;
+    left:5px;
+    height:140px;
+    position:absolute;
+}
+#icoini{
+    position:relative;
+    border-radius:10px;
+}
+.topetop{
+    height:20px;
+}
+#titcate{
+    position:relative;
+    height:80px;
+    width:200px;
+    overflow: hidden;
+    border-radius:100px;
+}
+#titcate img{
+    position:absolute;
+    top:-85%;
+    left:0px;
+    width:200px;
+}
+.topetop1{
+    height:20px;
+}
+.grup{
+    
+}
+#cat1{
+    background-color:aliceblue;
+    width:150px;
+    height:190px;
+    margin:4px;
+    display:inline-block;
+    overflow: hidden;
+    border-radius:20px;
+}
+#cat1 img{
+    max-width:150px;
+    max-height:150px;
+    overflow: hidden;
+}
+#tit{
+    color:black;
+    width:150px;
+    font-family:monospace;
+    font-size:14px;
+}
+.tope{
+    height:50px;
+    bottom:50px;
+}
+#logo{
+    position:fixed;
+    height:50px;
+    bottom:5px;
+    left:5px;
+}
+.redes{
+    transition:width 1s, heigth 1s, transform 0.5s;
+    animation:mymove 0.5s infinite;
+}
+.redes:hover{
+    width:55px;
+    height:55px;
+    position:relative;
+}
+@keyframes mymove{
+    from {bottom:5px;}
+    to {bottom:15px;}
+}
+#what{
+    border-radius:50px;
+}
+#what1{
+    display:none;
+    border-radius:50px;
+    bottom:50px;
+}
+#inst{
+    border-radius:50px;
+}
+#face{
+border-radius:50px;
+}
+.pie{
+    position:fixed;
+    height:50px;
+    bottom:5px;
+    right:5px;
+}

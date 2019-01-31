@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MUNDITOS STORE - ELECTRONICA</title>
+    <meta charset="UTF-8">
+    <link href="/munditos_store/art/hogar/art_hogar1.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" type="text/css" href="normal.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    
+    <div class="menu_index">
+        <img id="romi" src="/munditos_store/img_pag/romi.png">
+        <center>
+            <a href="https://ry064.github.io/munditos_store/">
+                <img id="icoini" src="/munditos_store/img_pag/mun_store.jpeg" width=140px height=140px>
+            </a>
+        </center>
+    </div>
+    <div class="topetop"></div>
+    <center>
+    <p id="instruccion">DESLICE O PRESIONE HACIA LA DERECHA</p>
+    </center>
+        
+<!--nuevo codigo galeria imagenes-->
+    <center>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- fotorama.css & fotorama.js. -->
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+<!-- 2. Add images>-->
+        <div class="fotorama">
+            <img src="/munditos_store/img_art/ocio/Bingo/IMG_2365.jpg">
+            <img src="/munditos_store/img_art/ocio/Bingo/IMG_2366.jpg">
+        </div>
+    <br/>
+    
+<!--articulos-->
+    <div class="cont1">
+        <a target="_blank" href="/munditos_store/img_art/ocio/Bingo/IMG_2365.jpg">
+            <img id="art" src="/munditos_store/img_art/ocio/Bingo/IMG_2365.jpg">
+        </a>
+        <a target="_blank" href="/munditos_store/img_art/ocio/Bingo/IMG_2366.jpg">
+            <img id="art" src="/munditos_store/img_art/ocio/Bingo/IMG_2366.jpg">
+        </a>
+        <div id="car">
+            <h4>Hamaca</h4>
+            <p>Excelete hamaca inflable y blablabla</p>
+            <ul>
+                <li>esto</li>
+                <li>y esto</li>
+                <li>y lo otro</li>
+                <p>$$$</p>
+            </ul>
+        </div>
+    </div>
+    </center>    
+    
+    
+<!--pie pagina-->
+    <div class="tope"></div>
+    <div class="pie">
+        <img id="logo" src="/munditos_store/img_pag/portada1.jpg">
+        <img class="redes" id="what" onclick="mostrar()" src="/munditos_store/img_pag/whats.png" widht=50 height=50>
+        <img class="" id="what1" onclick="ocultar()" src="/munditos_store/img_pag/whats2.png" widht=50 height=50>
+        <a href="https://www.instagram.com/munditoss.store_/">
+           <img class="redes" id="inst" src="/munditos_store/img_pag/inst.jpg" width=50 height=50>
+        </a>
+        <a href="https://www.facebook.com/munditoss.store/">
+            <img class="redes" id="face" src="/munditos_store/img_pag/face.png" width=50 height=50>
+        </a>
+<!--script whatsapp-->
+        <script type="text/javascript">
+            function mostrar(){
+                document.getElementById('what1').style.display = 'inline';
+                document.getElementById('what').style.display = 'none';
+            }
+        </script>
+        
+        <script type="text/javascript">
+            function ocultar(){
+                document.getElementById('what').style.display = 'inline';
+                document.getElementById('what1').style.display = 'none';
+            }
+        </script>
+    </div>
+    
+</body>
+
+
+
+</html>

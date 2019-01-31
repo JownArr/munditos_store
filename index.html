@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MUNDITOS STORE</title>
+    <meta charset="UTF-8">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen" type="text/css" href="normal.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+    
+        
+    <div class="menu_index">
+        <img id="romi" src="img_pag/romi.png">
+        <center>
+            <a href="https://ry064.github.io/munditos_store/">
+                <img id="icoini" src="img_pag/mun_store.jpeg" width=140px height=140px>
+            </a>
+        </center>
+    </div>
+    <div class="topetop"></div>
+    
+    <center>
+        <div class="menu_cat">
+            <a href="cat/cat_hogar.html">
+                <img src="img_pag/hogar.jpg">
+                <p id="tit">HOGAR</p>
+            </a>
+            <a href="cat/cat_ocio.html">
+                <img src="img_pag/ocio.jpg">
+                <p id="tit">OCIO</p>
+            </a>
+            <a href="cat/cat_videojuegos.html">
+                <img src="img_pag/videojuegos.jpg">
+                <p id="tit">VIDEOJUEGOS</p>
+            </a>
+            <a href="cat/cat_enamorados.html">
+                <img src="img_pag/enamorados.jpg">
+                <p id="tit">ENAMORADOS</p>
+            </a>
+            <a href="cat/cat_accesorios.html">
+                <img src="img_pag/accesorios.jpg">
+                <p id="tit">ACCESORIOS</p>
+            </a>
+            <a href="cat/cat_infantil.html">
+                <img src="img_pag/infantil.jpg">
+                <p id="tit">INFANTIL</p>
+            </a>
+            <a href="cat/cat_electronica">
+                <img src="img_pag/electronica.jpg">
+                <p id="tit">ELECTRONICA</p>
+            </a>
+        </div>
+    </center>
+    
+    
+    
+    
+<!--pie pagina-->
+    <div class="tope"></div>
+    <div class="pie">
+        <img id="logo" src="img_pag/portada1.jpg">
+        <img class="redes" id="what" onclick="mostrar()" src="img_pag/whats.png" widht=50 height=50>
+        <img class="" id="what1" onclick="ocultar()" src="img_pag/whats2.png" widht=50 height=50>
+        <a href="https://www.instagram.com/munditoss.store_/">
+           <img class="redes" id="inst" src="img_pag/inst.jpg" width=50 height=50>
+        </a>
+        <a href="https://www.facebook.com/munditoss.store/">
+            <img class="redes" id="face" src="img_pag/face.png" width=50 height=50>
+        </a>
+<!--script whatsapp-->
+        <script type="text/javascript">
+            function mostrar(){
+                document.getElementById('what1').style.display = 'inline';
+                document.getElementById('what').style.display = 'none';
+            }
+        </script>
+        
+        <script type="text/javascript">
+            function ocultar(){
+                document.getElementById('what').style.display = 'inline';
+                document.getElementById('what1').style.display = 'none';
+            }
+        </script>
+    </div>
+    
+</body>
+
+
+
+</html>

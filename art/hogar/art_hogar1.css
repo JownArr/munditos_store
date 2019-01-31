@@ -1,0 +1,88 @@
+body{
+    background-image: url("/munditos_store/img_pag/WhatsApp Image 2019-01-25.jpeg");
+    background-size:cover;
+}
+#romi{
+    top:5px;
+    left:5px;
+    height:140px;
+    position:absolute;
+}
+#icoini{
+    position:relative;
+    border-radius:10px;
+}
+.topetop{
+    height:20px;
+}
+#instruccion{
+    font-family:monospace;
+    font-size:15px;
+    width:300px;
+    background-color:aliceblue;
+    border-radius:20px;
+    font-style:italic;
+}
+.fotorama{
+    width:auto;
+    height:auto;
+    width:460px;
+    border-radius:20px;
+}
+.cont1{
+    
+}
+#art{
+    width:100px;
+    left:5px;
+    border-radius:10px;
+}
+#car{
+    width:300px;
+    background-color:azure;
+    border-radius:20px;
+}
+.tope{
+    height:50px;
+    bottom:50px;
+}
+#logo{
+    position:fixed;
+    height:50px;
+    bottom:5px;
+    left:5px;
+}
+.redes{
+    transition:width 1s, heigth 1s, transform 0.5s;
+    animation:mymove 0.5s infinite;
+}
+.redes:hover{
+    width:55px;
+    height:55px;
+    position:relative;
+}
+@keyframes mymove{
+    from {bottom:5px;}
+    to {bottom:15px;}
+}
+#what{
+    border-radius:50px;
+}
+#what1{
+    display:none;
+    border-radius:50px;
+    bottom:50px;
+}
+#inst{
+    border-radius:50px;
+}
+#face{
+border-radius:50px;
+}
+.pie{
+    position:fixed;
+    height:50px;
+    bottom:5px;
+    right:5px;
+}
+
