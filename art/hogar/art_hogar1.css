@@ -42,6 +42,18 @@ body{
     background-color:azure;
     border-radius:20px;
 }
+#contactows{
+    width:auto;
+    max-width:400px;
+    background-color:white;
+    border-radius:300px;
+    border-color:greenyellow;
+    border-style:solid;
+}
+#contactows a:link{
+    text-decoration:none;
+    color:limegreen;
+}
 .tope{
     height:50px;
     bottom:50px;
