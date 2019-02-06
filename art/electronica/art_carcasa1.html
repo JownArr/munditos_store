@@ -4,6 +4,7 @@
     <title>MUNDITOS STORE - ELECTRONICA</title>
     <meta charset="UTF-8">
     <link href="/munditos_store/art/hogar/art_hogar1.css" rel="stylesheet">
+    <link href="/munditos_store/art/hogar/art_maquinas.css" rel="stylesheet">
     <link rel="stylesheet" media="screen" type="text/css" href="normal.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -40,6 +41,7 @@
     <br/>
     
 <!--articulos-->
+    <p id="instruccion">PRESIONE LAS IMAGENES PARA AGRANDAR</p>
     <div class="cont1">        
         <a target="_blank" href="/munditos_store/img_art/electronica/Carcasas/carcasa-cargador-iphone-6-6s-y-7-celular-trisor-D_NQ_NP_979539-MLC28075639901_092018-F.jpg">
             <img id="art" src="/munditos_store/img_art/electronica/Carcasas/carcasa-cargador-iphone-6-6s-y-7-celular-trisor-D_NQ_NP_979539-MLC28075639901_092018-F.jpg">
@@ -53,22 +55,79 @@
         <a target="_blank" href="/munditos_store/img_art/electronica/Carcasas/iphone-celular-carcasa-D_NQ_NP_854012-MLC28075671002_092018-F.jpg">
             <img id="art" src="/munditos_store/img_art/electronica/Carcasas/iphone-celular-carcasa-D_NQ_NP_854012-MLC28075671002_092018-F.jpg">
         </a>
+        
+<!--menu maquinas-->
+        <p id="instruccion">SELECCIONE UN MENU PARA VER CARACTERISTICAS:</p>
         <div id="car">
-            <h4>Hamaca</h4>
-            <p>Excelete hamaca inflable y blablabla</p>
-            <ul>
-                <li>esto</li>
-                <li>y esto</li>
-                <li>y lo otro</li>
-                <p>$$$</p>
-            </ul>
+            
+            <h2 id="carca" class="seve" onclick="ver()">↬Carcasas Iphone 6, 6S↫ 7</h2>
+            
+            <div id="carca1" class="noseve" onclick="nover()">
+                <h2 id="carca">Carcasas Iphone 6, 6S y 7</h2>
+                <p>Carcasa cargadora para iphone 6, 6S y 7</p>
+                <ul>
+                    <li>Medidas aprox. 14.8x7x1.6cm</li>
+                    <li>Colores disponibles: Nero, blanco y dorado</li>
+                    <li>Incluye cable USB para cargar</li>
+                    <li>10000 mAh</li><h3>$29.990</h3>
+                </ul>
+            </div>
         </div>
+            
+        <div id="car">
+            <h2 id="carcas" class="seve" onclick="ver1()">↬Carcasa Iphone 5, 5s↫ 5c</h2>
+        
+            <div id="carcas1" class="noseve" onclick="nover1()">
+                <h2 id="carcas">Carcasa Iphone 5, 5s, 5c</h2>
+                <p>Carcasa cargadora para iphone 5, 5s, 5c</p>
+                <ul>
+                    <li>Capacidad:2200mAh</li>
+                    <li>Imput voltage: 5V</li>
+                    <li>OutPut voltage: 5 V</li>
+                    <li>Tiempo de carga: 5 hours</li>
+                    <li>4 indicadores led de poder</li>
+                    <h3>$19.990</h3>
+                </ul>
+            </div>
+        </div>
+        
+<!--script articulos-->
+        <script type="text/javascript">
+            function ver(){
+                document.getElementById('carca1').style.display = 'inline';
+                
+                document.getElementById('carca').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover(){
+                document.getElementById('carca').style.display = 'inline';
+                
+                document.getElementById('carca1').style.display = 'none';
+            }
+        </script>
+        
+        <script type="text/javascript">
+            function ver1(){
+                document.getElementById('carcas1').style.display = 'inline';
+                
+                document.getElementById('carcas').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover1(){
+                document.getElementById('carcas').style.display = 'inline';
+                
+                document.getElementById('carcas1').style.display = 'none';
+            }
+        </script>
     </div>
+    <br/>
        
 <!--contacto ws-->
     <div id="contactows">
     <a href="
-    https://api.whatsapp.com/send?phone=56957721821&text=Hola%20quiero%20consultar%20un%20producto">CONTACTATENOS HACIENDO CLICK AQUI DIRECTAMENTE</a>
+    https://api.whatsapp.com/send?phone=56973214055&text=Hola%20quiero%20consultar%20un%20producto">CONTACTATENOS HACIENDO CLICK AQUI DIRECTAMENTE</a>
         </div>
     </center>    
     

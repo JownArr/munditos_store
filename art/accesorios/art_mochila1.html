@@ -4,6 +4,7 @@
     <title>MUNDITOS STORE - ELECTRONICA</title>
     <meta charset="UTF-8">
     <link href="/munditos_store/art/hogar/art_hogar1.css" rel="stylesheet">
+    <link href="/munditos_store/art/hogar/art_maquinas.css" rel="stylesheet">
     <link rel="stylesheet" media="screen" type="text/css" href="normal.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -51,6 +52,7 @@
     <br/>
     
 <!--articulos-->
+    <p id="instruccion">PRESIONE LAS IMAGENES PARA AGRANDAR</p>
     <div class="cont1">
         <a target="_blank" href="/munditos_store/img_art/accesorios/Mochilas/mochila-bart-los-simpson-negra-D_NQ_NP_701768-MLM28124810865_092018-F.jpg">
             <img id="art" src="/munditos_store/img_art/accesorios/Mochilas/mochila-bart-los-simpson-negra-D_NQ_NP_701768-MLM28124810865_092018-F.jpg">
@@ -97,22 +99,162 @@
         <a target="_blank" href="/munditos_store/img_art/accesorios/Mochilas/WhatsApp%20Image%202019-01-25%20at%2014.35.43.jpeg">
             <img id="art" src="/munditos_store/img_art/accesorios/Mochilas/WhatsApp%20Image%202019-01-25%20at%2014.35.43.jpeg">
         </a>
+        
+<!--menu maquinas-->
+        <p id="instruccion">SELECCIONE UN MENU PARA VER CARACTERISTICAS:</p>
         <div id="car">
-            <h4>Hamaca</h4>
-            <p>Excelete hamaca inflable y blablabla</p>
-            <ul>
-                <li>esto</li>
-                <li>y esto</li>
-                <li>y lo otro</li>
-                <p>$$$</p>
-            </ul>
+            
+            <h2 id="bart" class="seve" onclick="ver()">↬Mochila Bart↫</h2>
+            
+            <div id="bart1" class="noseve" onclick="nover()">
+                <h2 id="bart">Mochila Bart</h2>
+                <p>Mochila de Bart Simpson en fondo blanco.</p>
+                <ul>
+                    <li>Mide 42x29x10 cm</li>
+                    <li>Material lona gruesa</li>
+                    <h3>$19.990</h3>
+                </ul>
+            </div>
         </div>
+            
+        <div id="car">
+            <h2 id="mickey" class="seve" onclick="ver1()">↬Mochila Mickey Mouse↫</h2>
+        
+            <div id="mickey1" class="noseve" onclick="nover1()">
+                <h2 id="mickey">Mochila Mickey Mouse</h2>
+                <p>Genial mochila de Mickey Mouse, fabricada de tela resistente.</p>
+                <ul>
+                    <h3>$24.990</h3>
+                </ul>
+            </div>
+        </div>
+            
+        <div id="car">
+            <h2 id="marvel" class="seve" onclick="ver2()">↬Mochila Marvel↫</h2>
+        
+            <div id="marvel1" class="noseve" onclick="nover2()">
+                <h2 id="marvel">Mochila Marvel</h2>
+                <p>Mochila Estilo Kanken</p>
+                <ul>
+                    <li>Alto 40cm</li>
+                    <li>Ancho 30cm</li>
+                    <li>Profundidad 20cm</li><h3>$19.990</h3>
+                </ul>
+            </div>
+        </div>
+            
+        <div id="car">
+            <h2 id="arco" class="seve" onclick="ver3()">↬Mochila Arcoiris↫</h2>
+        
+            <div id="arco1" class="noseve" onclick="nover3()">
+                <h2 id="arco">Mochila Arcoiris</h2>
+                <p>Mochila suave y de color arcoíris.</p>
+                <ul>
+                    <li>Medidas 30 x 30 x 12</li>
+                    <h3>$19.990</h3>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="car">
+            <h2 id="robo" class="seve" onclick="ver4()">↬Mochila Anti-Robo↫</h2>
+        
+            <div id="robo1" class="noseve" onclick="nover4()">
+                <h2 id="robo">Mochila Anti-Robo</h2>
+                <p>Dispone de varios bolsillos camuflados, además de ser repelente al agua y de disponer de detalles reflectantes para la noche. Elaborada de polyester de alta calidad. El interior incluye compartimiento acolchado para portátil (notebook) de 16,5", y tablet 10", y todas tus demás pertenencias.</p>
+                <ul>
+                    <li>Cierre de cremallera y bolsillos ocultos</li>
+                    <li>Puertos integrados de carga USB</li>
+                    <li>Correas de seguridad iluminadas</li>
+                    <li>Tejido repelente al agua</li>
+                    <li>Balance de peso</li>
+                    <li>Correa del equipaje</li>
+                    <h3>$19.990</h3>
+                </ul>
+            </div>
+        </div>
+        
+<!--script articulos-->
+        <script type="text/javascript">
+            function ver(){
+                document.getElementById('bart1').style.display = 'inline';
+                
+                document.getElementById('bart').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover(){
+                document.getElementById('bart').style.display = 'inline';
+                
+                document.getElementById('bart1').style.display = 'none';
+            }
+        </script>
+        
+        <script type="text/javascript">
+            function ver1(){
+                document.getElementById('mickey1').style.display = 'inline';
+                
+                document.getElementById('mickey').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover1(){
+                document.getElementById('mickey').style.display = 'inline';
+                
+                document.getElementById('mickey1').style.display = 'none';
+            }
+        </script>
+        
+        <script type="text/javascript">
+            function ver2(){
+                document.getElementById('marvel1').style.display = 'inline';
+                
+                document.getElementById('marvel').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover2(){
+                document.getElementById('marvel').style.display = 'inline';
+                
+                document.getElementById('marvel1').style.display = 'none';
+            }
+        </script>
+        
+        <script type="text/javascript">
+            function ver3(){
+                document.getElementById('arco1').style.display = 'inline';
+                
+                document.getElementById('arco').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover3(){
+                document.getElementById('arco').style.display = 'inline';
+                
+                document.getElementById('arco1').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function ver4(){
+                document.getElementById('robo1').style.display = 'inline';
+                
+                document.getElementById('robo').style.display = 'none';
+            }
+        </script>
+        <script type="text/javascript">
+            function nover4(){
+                document.getElementById('robo').style.display = 'inline';
+                
+                document.getElementById('robo1').style.display = 'none';
+            }
+        </script>
     </div>
+    <br/>
        
 <!--contacto ws-->
     <div id="contactows">
     <a href="
-    https://api.whatsapp.com/send?phone=56957721821&text=Hola%20quiero%20consultar%20un%20producto">CONTACTATENOS HACIENDO CLICK AQUI DIRECTAMENTE</a>
+    https://api.whatsapp.com/send?phone=56973214055&text=Hola%20quiero%20consultar%20un%20producto">CONTACTATENOS HACIENDO CLICK AQUI DIRECTAMENTE</a>
         </div>
     </center>    
     

@@ -1,0 +1,14 @@
+.noseve{
+    display:none;
+    width:300px;
+    background-color:azure;
+    border-radius:20px;
+}
+.seve{
+    margin:4px;
+}
+#car{
+    margin:10px;
+    border-color:blueviolet;
+    border-style:solid;
+}
