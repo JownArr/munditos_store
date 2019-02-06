@@ -45,6 +45,9 @@ body{
     border-radius:20px;
     font-family:monospace;
 }
+p{
+    margin:10px;
+}
 #contactows{
     width:auto;
     max-width:400px;
