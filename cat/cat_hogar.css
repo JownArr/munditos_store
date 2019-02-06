@@ -46,13 +46,17 @@ body{
 #cat1 img{
     max-width:150px;
     max-height:150px;
+    width:150px;
+    height:150px;
     overflow: hidden;
+    background-size:cover;
 }
 #tit{
     color:black;
     width:150px;
     font-family:monospace;
     font-size:14px;
+    position:absolute;
 }
 .tope{
     height:50px;
