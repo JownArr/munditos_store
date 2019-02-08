@@ -29,7 +29,10 @@ body{
     width:auto;
     height:auto;
     max-width:460px;
-    border-radius:20px;
+    border-radius:100px;
+    background-color:white;
+    border-style:solid;
+    border-color:black;
 }
 .cont1{
     
@@ -38,14 +41,18 @@ body{
     width:100px;
     height:100px;
     left:5px;
-    border-radius:10px;
+    border-radius:30px;
     background-size:cover;
+    border-style:solid;
+    border-color:black;
 }
 #car{
     width:280px;
     background-color:azure;
     border-radius:20px;
-    font-family:monospace;
+    font-family:cursive;
+    border-style:solid;
+    border-color:cornflowerblue;
 }
 p{
     margin:10px;
