@@ -42,6 +42,8 @@ body{
     display:inline-block;
     overflow: hidden;
     border-radius:20px;
+    border-style:solid;
+    border-color:cornflowerblue;
 }
 #cat1 img{
     max-width:150px;
